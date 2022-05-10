@@ -28,8 +28,8 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo(){
-        return new ApiInfo("Cardapio API - Spring Boot 2.1.3",
-                "API para geração de Cardápio com QR Code.",
+        return new ApiInfo("Authentication Users API - Spring Boot 2.1.3",
+                "API para geração de token e autenticação de usuários.",
                 "v1",
                 "Terms Of Service Url",
                 new Contact("@DevThiagoFurtado","https://devthiagofurtado.com","devthiagofurtado@gmail.com"),
